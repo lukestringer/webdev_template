@@ -1,0 +1,35 @@
+/* simple CSS reset */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+@import "colors.css";
+/* Default link styling */
+/* a:link and a:visited MUST come before a:hover */
+/* a:hover MUST come before a:active */
+  a {
+    text-decoration: underline;
+    /* text-decoration: none; */
+}
+a:link {
+    color: var(--link-color);
+}
+a:visited {
+    color: var(--link-color-visited);
+}
+a:hover {
+    color: var(--link-color-hover);
+}
+a:active {
+    color: var(--link-color-active);
+}
+
+
+
+body {
+    color: var(--color);
+    background-color: var(--background-color);
+}
