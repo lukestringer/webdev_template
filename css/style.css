@@ -10,7 +10,7 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
 /* Default link styling */
 /* a:link and a:visited MUST come before a:hover */
 /* a:hover MUST come before a:active */
-  a {
+a {
     text-decoration: underline;
     /* text-decoration: none; */
 }
