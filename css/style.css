@@ -5,6 +5,16 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
     list-style: none;
 }
 
+/* Some color variables */
+:root {
+    --background-color: #FFF;
+    --color: #000;
+    --link-color: blue;
+    --link-color-visited: purple;
+    --link-color-hover: green;
+    --link-color-active: red;
+}
+
 
 @import "colors.css";
 /* Default link styling */
