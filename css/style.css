@@ -16,7 +16,6 @@ body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
 }
 
 
-@import "colors.css";
 /* Default link styling */
 /* a:link and a:visited MUST come before a:hover */
 /* a:hover MUST come before a:active */
