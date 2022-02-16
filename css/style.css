@@ -37,7 +37,7 @@ a:active {
 }
 
 
-
+/*Using color variables*/
 body {
     color: var(--color);
     background-color: var(--background-color);
