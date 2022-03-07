@@ -5,20 +5,9 @@ document.addEventListener("readystatechange", function(event) {
         //do thing
     }    
 });
-/* jQuery version 
-$(document).ready(function() {
-    $("body").addClass("js");
-    //do thing
-});
-*/
 
 
 //all resources are ready after:
 window.onload = function() {
     //do thing
 };
-/* jQuery version
-$(window).on("load", function(event) {
-    //do thing
-});
-*/
